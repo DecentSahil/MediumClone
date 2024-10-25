@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 60px 0 70px;
+    height: 70px;
+    z-index: 10;
+}
+.logo{
+    margin-top: 10px;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    font-weight: bolder;
+    color: rgb(57, 40, 40);
+}
+.button{
+    border-radius: 20px;
+    margin-top: 10px;
+    padding-left: 10px;
+    height: 40px;
+    padding-right: 10px;
+    background-color: black;
+    color: white;
+}
+li{
+    margin: 20px;
+}

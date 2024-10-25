@@ -1,0 +1,42 @@
+.headermain {
+    padding-top: 12vh;
+    margin-left: 5vw;
+    display: flex;
+    align-items: center;
+}
+
+.heading1 {
+    margin-top: 12vh;
+    font-size: 120px;
+    line-height: 110px;
+    width: 55vw;
+    z-index: 5;
+}
+
+.heading2 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #555;
+}
+
+.ReadButton {
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.ReadButton:hover {
+    background-color: #333;
+}
+
+.image {
+    width: 40vw;
+    background-image: url(../mediumBackground.webp);
+    background-size: cover;
+    height: 84vh;
+}
